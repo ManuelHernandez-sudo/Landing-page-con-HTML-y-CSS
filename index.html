@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trigo y Luna — Panadería artesanal de horneado nocturno</title>
+  <meta name="description" content="Trigo y Luna hornea pan de masa madre durante la noche para que salga fresco del horno cada amanecer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="sitio-header">
+    <div class="contenedor header-interior">
+      <a href="#inicio" class="marca" id="logo-principal">
+        <img src="assets/logo-luna-trigo.svg" alt="Logotipo de Trigo y Luna, una luna creciente entrelazada con una espiga de trigo" class="marca-icono" width="40" height="40">
+        <span class="marca-texto">Trigo y Luna</span>
+      </a>
+      <nav class="nav-principal" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#proceso">Proceso</a></li>
+          <li><a href="#panes">Panes</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="seccion hero">
+      <div class="contenedor hero-grid">
+        <div class="hero-texto">
+          <p class="eyebrow">Horneado nocturno · Masa madre natural</p>
+          <h1>El pan sale del horno mientras la ciudad duerme.</h1>
+          <p class="hero-parrafo">
+            Amasamos al anochecer, dejamos que la masa madre haga su trabajo lento durante la noche
+            y horneamos justo antes del amanecer. Así el pan llega a tu mesa con la corteza todavía tibia.
+          </p>
+          <div class="hero-acciones">
+            <a href="#panes" class="boton boton-primario">Ver los panes de hoy</a>
+            <a href="https://www.openstreetmap.org/" class="boton boton-secundario" id="enlace-mapa" target="_blank" rel="noopener noreferrer">Cómo llegar</a>
+          </div>
+        </div>
+        <div class="hero-reloj" aria-hidden="true">
+          <div class="reloj-esfera">
+            <span class="reloj-marca reloj-marca--1">21:00<br><small>Amasado</small></span>
+            <span class="reloj-marca reloj-marca--2">00:00<br><small>Fermentación</small></span>
+            <span class="reloj-marca reloj-marca--3">04:30<br><small>Horneado</small></span>
+            <span class="reloj-marca reloj-marca--4">06:00<br><small>Listo</small></span>
+            <div class="reloj-centro">6 AM</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proceso" class="seccion proceso">
+      <div class="contenedor">
+        <h2>De la harina a tu mesa, paso a paso</h2>
+        <p class="seccion-intro">Cada hogaza sigue el mismo camino, sin prisa, durante nueve horas de trabajo silencioso.</p>
+        <ol class="lista-proceso">
+          <li class="paso">
+            <span class="paso-numero">01</span>
+            <h3>Amasado a las 9 PM</h3>
+            <p>Mezclamos harina de grano entero, agua, sal y masa madre viva. Sin levadura comercial, sin prisa.</p>
+          </li>
+          <li class="paso">
+            <span class="paso-numero">02</span>
+            <h3>Fermentación lenta</h3>
+            <p>La masa reposa toda la noche a temperatura fresca, desarrollando sabor y una miga abierta y ligera.</p>
+          </li>
+          <li class="paso">
+            <span class="paso-numero">03</span>
+            <h3>Horneado a las 4:30 AM</h3>
+            <p>Entra al horno de piedra cuando el barrio todavía duerme. El vapor forma la corteza crujiente.</p>
+          </li>
+          <li class="paso">
+            <span class="paso-numero">04</span>
+            <h3>Fresco a las 6 AM</h3>
+            <p>Sale del horno y se enfría lo justo antes de abrir la puerta. Primero en llegar, primero en elegir.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="panes" class="seccion panes">
+      <div class="contenedor">
+        <h2>Nuestros panes</h2>
+        <p class="seccion-intro">Una selección corta, cambia según la temporada y lo que traiga el mercado.</p>
+        <div class="galeria-panes">
+          <article class="tarjeta-pan">
+            <img src="assets/pan-artesanal.svg" alt="Hogaza redonda de pan de masa madre con corteza oscura y cortes decorativos" width="320" height="240">
+            <h3>Masa madre clásica</h3>
+            <p>Harina de trigo entero, 24 horas de fermentación, corteza gruesa y miga húmeda.</p>
+          </article>
+          <article class="tarjeta-pan">
+            <img src="assets/pan-artesanal.svg" alt="Hogaza de pan artesanal con semillas de girasol y linaza sobre la corteza" width="320" height="240">
+            <h3>Semillas y centeno</h3>
+            <p>Un veinte por ciento de centeno integral, girasol y linaza tostada. Sabor profundo, ligeramente ácido.</p>
+          </article>
+          <article class="tarjeta-pan">
+            <img src="assets/pan-artesanal.svg" alt="Hogaza de pan dulce de temporada con un glaseado ligero" width="320" height="240">
+            <h3>Especial de temporada</h3>
+            <p>Cambia cada mes: hoy es naranja y anís. Producción limitada, disponible solo los fines de semana.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion contacto">
+      <div class="contenedor contacto-grid">
+        <div>
+          <h2>Visítanos antes de que se acabe</h2>
+          <p class="seccion-intro">El pan del día suele agotarse antes del mediodía. Llega temprano o encárgalo con anticipación.</p>
+          <dl class="lista-datos">
+            <div class="dato">
+              <dt>Horario</dt>
+              <dd>Martes a domingo, 6:00 AM – 1:00 PM</dd>
+            </div>
+            <div class="dato">
+              <dt>Dirección</dt>
+              <dd>4a Calle 3-21, Zona 1, Huehuetenango</dd>
+            </div>
+            <div class="dato">
+              <dt>Encargos</dt>
+              <dd><a href="mailto:hola@trigoyluna.gt" id="enlace-correo">hola@trigoyluna.gt</a></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="sitio-footer">
+    <div class="contenedor footer-interior">
+      <p>&copy; 2026 Trigo y Luna. Horneado con paciencia en Huehuetenango.</p>
+      <a href="#inicio" class="volver-arriba">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
