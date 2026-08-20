@@ -1,0 +1,18 @@
+<svg width="320" height="240" viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="panTitle">
+  <title id="panTitle">Ilustración de una hogaza de pan de masa madre recién horneada</title>
+  <rect x="0" y="0" width="320" height="240" fill="#2B211B"/>
+  <ellipse cx="160" cy="200" rx="120" ry="14" fill="#1B2036" opacity="0.5"/>
+  <path d="M60 150 C60 100 110 70 160 70 C210 70 260 100 260 150 C260 185 215 205 160 205 C105 205 60 185 60 150 Z" fill="#C97B3D"/>
+  <path d="M70 150 C70 110 115 82 160 82 C205 82 250 110 250 150 C250 178 210 195 160 195 C110 195 70 178 70 150 Z" fill="#D98F52"/>
+  <g stroke="#E0B04B" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M110 100 C130 130 130 160 110 185"/>
+    <path d="M160 92 C180 122 180 158 160 190"/>
+    <path d="M210 100 C190 130 190 160 210 185"/>
+  </g>
+  <g fill="#F2E9DC" opacity="0.9">
+    <circle cx="90" cy="60" r="2.5"/>
+    <circle cx="230" cy="55" r="2"/>
+    <circle cx="250" cy="90" r="2.5"/>
+    <circle cx="70" cy="95" r="2"/>
+  </g>
+</svg>
