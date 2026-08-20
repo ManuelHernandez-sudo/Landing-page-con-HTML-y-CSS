@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Logotipo de Trigo y Luna: una luna creciente con una espiga de trigo</title>
+  <circle cx="32" cy="32" r="30" fill="#1B2036"/>
+  <path d="M40 14 A18 18 0 1 0 40 50 A14 14 0 1 1 40 14 Z" fill="#E0B04B"/>
+  <g stroke="#F2E9DC" stroke-width="1.6" stroke-linecap="round" fill="none">
+    <line x1="20" y1="46" x2="20" y2="24"/>
+    <path d="M20 26 L14 22 M20 26 L26 22"/>
+    <path d="M20 31 L14 27 M20 31 L26 27"/>
+    <path d="M20 36 L14 32 M20 36 L26 32"/>
+    <path d="M20 41 L14 37 M20 41 L26 37"/>
+  </g>
+</svg>
